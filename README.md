@@ -12,7 +12,7 @@ Haz clic en cada botón para descargar individualmente el patrón correspondient
 - 🏭 [Descargar FACTORYAB](https://downgit.github.io/#/home?url=https://github.com/Niphony/Codigos_Patrones/tree/master/FACTORYAB)
 - ⚙️ [Descargar Prototype](https://downgit.github.io/#/home?url=https://github.com/Niphony/Codigos_Patrones/tree/master/Prototype)
 - ♻️ [Descargar Singleton](https://downgit.github.io/#/home?url=https://github.com/Niphony/Codigos_Patrones/tree/master/Singleton)
-- 🎨 [Descargar Visual](https://downgit.github.io/#/home?url=https://github.com/Niphony/Codigos_Patrones/tree/master/Visual)
+
 
 ---
 
@@ -31,8 +31,9 @@ Codigos_Patrones/
 │   ├── Ejemplo_FactoryAB1/
 │   ├── Ejemplo_FactoryAB2/
 │   ├── Ejemplo_FactoryAB3/
-│   └── TallerFAB/src/
+|   ├── Factory_AB1.drawio.pdf
+│   ├── Factory_AB2.drawio.pdf
+|   ├── Factory_AB3.drawio.pdf
 ├── Prototype/
 ├── Singleton/
-├── Visual/
-├── *.drawio.pdf
+
