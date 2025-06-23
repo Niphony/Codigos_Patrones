@@ -19,7 +19,7 @@ public class VistaConsola {
 		System.out.print(mensaje);
 		dato = sc.nextInt();
 		return dato;
-	}
+	}d
 
 	public String leerDatoString(String string) {
 		System.out.print(string);

@@ -1,6 +1,6 @@
 package model;
 
-abstract class Figura implements Cloneable {
+public abstract class Figura implements Cloneable {
 
     private int x, y;
     
