@@ -18,7 +18,7 @@ Haz clic en cada botón para descargar individualmente el patrón correspondient
 
 ## 🧩 Diagramas
 
-Cada subproyecto contiene archivos `.Ejemplo_patron.pdf` que explican gráficamente el funcionamiento interno de las clases y su relación, asi con cada uno de los ejemplos, los codigos se puede ejecutar en eclipse.
+Cada subproyecto contiene archivos `.Ejemplo_patron.pdf` que explican gráficamente el funcionamiento interno de las clases y su relación, asi con cada uno de los ejemplos, los codigos se pueden ejecutar en eclipse.
 
 ---
 
