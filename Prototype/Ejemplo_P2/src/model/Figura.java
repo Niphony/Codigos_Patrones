@@ -2,7 +2,7 @@ package model;
 
 abstract class Figura implements Cloneable {
 
-    public int x, y;
+    private int x, y;
     
     public Figura(int x, int y) {
         this.x = x;

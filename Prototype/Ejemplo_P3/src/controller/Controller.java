@@ -7,7 +7,7 @@ public class Controller {
 	
 	private VistaConsola vista;
 	private Idiomas idiom;
-	byte option;
+	private byte option;
 	
 	
 	public Controller() {
@@ -43,7 +43,7 @@ public class Controller {
              break;
          }
          case 3-> {
-        	 vista.mostrarinfo("Los idiomas que manejas ahora son, de principal: " +idiomap+ "\nsecundario: " +idiomas );
+        	 vista.mostrarinfo("Los idiomas que manejas ahora son:\nPrincipal: " +idiomap+ "\nSecundario: " +idiomas );
              break;
          }
          case 4-> {

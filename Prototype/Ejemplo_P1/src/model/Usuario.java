@@ -2,9 +2,9 @@ package model;
 
 public class Usuario implements Cloneable {
 
-    String nombre;
-    String apellido;
-    int edad;
+    private String nombre;
+    private String apellido;
+    private int edad;
 
     public String getNombre() {
         return nombre;
