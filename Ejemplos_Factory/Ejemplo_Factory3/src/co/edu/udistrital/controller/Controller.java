@@ -1,6 +1,7 @@
 package co.edu.udistrital.controller;
 
 import co.edu.udistrital.model.interfaz.Bebida;
+import co.edu.udistrital.model.interfaz.concretoCreador.Fabrica;
 import co.edu.udistrital.model.interfaz.concretoCreador.FabricaB;
 import co.edu.udistrital.view.VistaConsola;
 
