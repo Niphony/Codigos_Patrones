@@ -1,25 +1,9 @@
 package model;
 
-import view.VistaConsola;
-
-public class Control implements VerControl {
-    private Verificador proveedor; 
-    private VistaConsola vista; 
-
-    public Control(Verificador proveedor, VistaConsola vista) {
-        this.proveedor = proveedor;
-        this.vista = vista;
-    }
-
+public class Autenticador implements Verificador {
     @Override
-    public void autenticarUsuario() {
-        String usuario = vista.leerTexto("Usuario: ");
-        String contraseña = vista.leerTexto("Contraseña: ");
-
-        if (proveedor.validar(usuario, contraseña)) {
-            vista.mostrarInformacion("¡Autenticación exitosa!");
-        } else {
-            vista.mostrarInformacion("Error: Usuario o contraseña incorrectos. \nDatos requeridos:\nadmin\n123");
-        }
+    public boolean validar(String usuario, String contraseña) {
+       
+        return usuario.contains("@") && contraseña.length() >= 5;
     }
 }
