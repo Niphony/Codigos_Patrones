@@ -2,7 +2,6 @@ package model;
 
 import java.util.ArrayList;
 import java.util.List;
-import model.VistaNoti;
 import model.observer.MiObservable;
 import model.observer.MiObserver;
 
